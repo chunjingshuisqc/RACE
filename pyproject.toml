@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "race-vote-lab"
+version = "0.1.0"
+description = "RACE-Vote and TrickCatcher experiments on TrickyBugs"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.7",
+  "openai>=1.52",
+  "python-dotenv>=1.0",
+]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
