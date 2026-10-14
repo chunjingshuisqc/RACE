@@ -1,4 +1,4 @@
-# RACE-Vote 论文实验流程
+# RACE-Vote 实验流程
 
 本项目用于执行四项实验：RQ1 检测效果、RQ2 组件消融、RQ3 变体质量和 RQ4 Buggy 变体价值。实验集为 TrickyBugs 中的部分 Python PUT；
 
@@ -61,4 +61,4 @@ K=6 和 K=10 是两次独立生成实验，不能从 K=10 的池中抽取组合�
 python .\RACEVoteCore\compare_experiments.py
 ```
 
-`Baseline/RACEVote-Comparison` 只生成论文对应的四组 CSV ：`rq1_detection_effectiveness`、`rq2_component_ablation`、`rq3_variant_quality` 和 `rq4_useful_buggy_variants`。
+`Baseline/RACEVote-Comparison` 生成论文对应的结果 ：`rq1_detection_effectiveness`、`rq2_component_ablation`、`rq3_variant_quality` 和 `rq4_useful_buggy_variants`。
